@@ -149,9 +149,10 @@ header ul a:hover {
   border-radius: 20px;
   background-color:aliceblue;
   cursor: pointer;
-  /* overflow:hidden; */
+  overflow:hidden;
   transition: 850ms all;
   transform-origin: center left;
+  position: relative;
 }
 
 .carousel__item:hover ~ .carousel__item{
@@ -173,5 +174,33 @@ header ul a:hover {
   object-fit: cover;
 }
 
+.carousel__item__details{
+  position:absolute;
+  width: 100%;
+  bottom:0;
+  padding:10px;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  transition: 450ms opacity;
+  opacity:0;
+}
+
+.carousel__container:hover .carousel__item:hover .carousel__item__details{
+  opacity: 1;
+}
+
+
+.carousel__item__icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.carousel__item__details__title{
+  margin: 5px 0;
+}
 
 

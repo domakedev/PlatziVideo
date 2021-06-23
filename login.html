@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles/login.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login: Platzi Video</title>
+  </head>
+  <body>
+    <header>
+      <img class="header__logo" src="images/logo-platzi.png" alt="" />
+
+      <!-- <div class="header__menu">
+        <div class="header__menu__profile">
+          <img src="images/user-icon.png" alt="" />
+          <span>Menu</span>
+        </div>
+
+        <ul>
+          <li><a href="#">Cuenta</a></li>
+          <li><a href="#">Cerrar sesion</a></li>
+        </ul>
+        
+      </div> -->
+    </header>
+    
+    <main>
+        <section class="login">
+            <h2 class="login__tittle">Inicia sesión</h2>
+            <input class="login__input" type="text" placeholder="Correo">
+            <input class="login__input" type="text" placeholder="Contraseña">
+            <button class="login__button--login" type="button">Iniciar sesión</button>
+            <div class="login__helpers">
+                <div>
+                    <input type="radio" id="rememberme" name="recuerdame" value="remember">
+                    <label for="rememberme">Recuerdame</label>
+                </div>                
+                <a class="link" href="#">Olvide mi contraseña</a>
+            </div>
+
+            <div class="loading__options">
+                <div class="loading__options--google">
+                    <img src="images/icons/google.svg"/>
+                    <a class="link" href="#">Inicia sesion con Google</a>
+                </div>
+                <div class="loading__options--twitter">
+                    <img src="images/icons/twitter.svg"/>
+                    <a class="link" href="#">Inicia sesion con Twitter</a>
+                </div>
+            </div>
+
+            <div class="loading__register">
+                <p>No tienes ninguna cuenta <a class="link" href="#">REGISTRATE</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a class="footer__item link" href="#">Terminos de uso</a>
+        <a class="footer__item link" href="">Declaracion de privacidad</a>
+        <a class="footer__item link" href="">Centro de ayuda</a>
+    </footer>
+    
+  </body>
+</html>
