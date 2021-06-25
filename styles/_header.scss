@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-size: 1.8rem;
+    font-family: "Mulish", sans-serif;
+    background-color: $verde;
+  }
+
+  .header__menu:hover ul {
+    display: block;
+  }
+  
+  .header__menu {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  .header__logo {
+    width: 200px;
+  }
+  
+  .header__menu {
+    margin-right: 30px;
+    width: 100px;
+  }
+  
+  .header__menu ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+    margin-left: -11px;
+  }
+  
+  header ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  header ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .header__menu__profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }

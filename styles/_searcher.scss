@@ -1,0 +1,59 @@
+/* Estilos de la seccion del buscador */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(#21c08b, #ab88ff);
+  min-height: calc(100vh - 200px);
+}
+
+.searcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+  }
+  
+  .searcher__title {
+    font-family: "Mulish", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .searcher__bar {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+  }
+  
+  .searcher__bar input {
+    width: 95%;
+    height: 2.8rem;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    padding: 10px;
+  }
+  
+  .searcher__bar input:focus {
+    border: 0;
+    outline: none;
+    color: white;
+  }
+  
+  .searcher__bar input::placeholder {
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 10px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+  }

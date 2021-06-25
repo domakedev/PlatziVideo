@@ -1,0 +1,17 @@
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: var(--font-size);
+    font-weight: bold;
+    background-color: #ab88ff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__item {
+    margin: 10px;
+  }
